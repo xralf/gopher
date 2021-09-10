@@ -4,7 +4,10 @@
 
     cd greetings
     go mod init github.com/xralf/gopher/greetings
+    touch greetings.go
 
+    cd ../hello
+    go get github.com/xralf/gopher/greetings
 
     cd greetings
     git init -q
